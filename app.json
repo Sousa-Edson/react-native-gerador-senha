@@ -15,7 +15,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.edson3711.gerador"
     },
     "web": {
       "bundler": "metro",
@@ -32,10 +33,22 @@
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
         }
-      ]
+      ],
+      "expo-asset",
+      "expo-font",
+      "expo-web-browser"
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "b08fbfc8-eab5-4ed8-b902-9390ae2d23f8"
+      }
+    },
+    "owner": "edson3711"
   }
 }
